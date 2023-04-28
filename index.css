@@ -10,3 +10,27 @@ html,
 body {
   box-sizing: inherit;
 }
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 964px; */
+}
+
+.card span {
+  color: hsl(157.94deg 35.79% 37.25%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card button {
+  border: none;
+  outline: none;
+  background-color: hsl(157.94deg 35.79% 37.25%);
+  padding: 15px 60px;
+  font-size: 25px;
+  color: #ffff;
+  border-radius: 10px;
+}
